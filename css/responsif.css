@@ -1,0 +1,46 @@
+/* Untuk tablet */
+@media screen and (max-width: 768px) {
+  .nav-biasa {
+    display: none;
+  }
+  .hamburger, .nav-responsive {
+    display: block;
+  }
+  .user {
+    display: none;
+  }
+  .logo {
+    margin-left: 0;
+  }
+  .heropage .poster {
+    margin-bottom: 30px;
+  }
+  .heropage .poster img {
+    width: 60vw;
+    max-width: none;
+    max-width: none;
+  }
+}
+.open {
+  height: 200px;
+  opacity: 1;
+  top: 65px;
+}
+.open ul {
+  display: flex;
+}
+
+@media screen and (max-width: 576px) {
+  .heropage {
+    margin-top: 45px;
+  }
+  .heropage img {
+    width: 80vw;
+  }
+  .btn1 {
+    flex-wrap: wrap;
+  }
+  .btn1 a {
+    margin-bottom: 10px;
+  }
+}/*# sourceMappingURL=responsif.css.map */

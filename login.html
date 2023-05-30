@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign in & Sign up Form</title>
+    <link rel="stylesheet" href="./css/login.css" />
+  </head>
+  <body>
+    <main>
+      <div class="box">
+        <div class="inner-box">
+          <div class="forms-wrap">
+            <form action="fly.html" autocomplete="off" class="sign-in-form">
+              <div class="logo">
+                <img src="./css/boty2022.gif" alt="easyclass" />
+                <h4>FotixCinema</h4>
+              </div>
+
+              <div class="heading">
+                <h2>Selamat Datang!</h2>
+                <h6>Belum punya akun?</h6>
+                <a href="#" class="toggle">Daftar</a>
+              </div>
+
+              <div class="actual-form">
+                <div class="input-wrap">
+                  <input
+                    type="text"
+                    minlength="4"
+                    class="input-field"
+                    autocomplete="off"
+                    required
+                  />
+                  <label>Email</label>
+                </div>
+
+                <div class="input-wrap">
+                  <input
+                    type="password"
+                    minlength="4"
+                    class="input-field"
+                    autocomplete="off"
+                    required
+                  />
+                  <label>Password</label>
+                </div>
+
+                <input type="submit" value="Masuk" class="sign-btn" />
+                
+                <p class="text">
+                 Lupa password? 
+                  <a href="#">Bantuan</a> 
+                </p>
+              </div>
+            </form>
+
+            <form action="fly.html" autocomplete="off" class="sign-up-form">
+              <div class="logo">
+                <img src="./css/boty2022.gif" alt="easyclass" />
+                <h4>FotixCinema</h4>
+              </div>
+
+              <div class="heading">
+                <h2>Ayo mulai!</h2>
+                <h6>Sudah memiliki akun?</h6>
+                <a href="#" class="toggle">Masuk</a>
+              </div>
+
+              <div class="actual-form">
+                <div class="input-wrap">
+                  <input
+                    type="text"
+                    minlength="4"
+                    class="input-field"
+                    autocomplete="off"
+                    required
+                  />
+                  <label>Nama</label>
+                </div>
+
+                <div class="input-wrap">
+                  <input
+                    type="email"
+                    class="input-field"
+                    autocomplete="off"
+                    required
+                  />
+                  <label>Email</label>
+                </div>
+
+                <div class="input-wrap">
+                  <input
+                    type="password"
+                    minlength="4"
+                    class="input-field"
+                    autocomplete="off"
+                    required
+                  />
+                  <label>Password</label>
+                </div>
+
+                <input type="submit" value="Masuk" class="sign-btn" />
+
+                <p class="text">
+                 Dengan ini, saya setuju dengan
+                  <a href="#">Syarat dan ketentuan</a>
+                </p>
+              </div>
+            </form>
+          </div>
+
+          <div class="carousel">
+            <div class="images-wrapper">
+              <img src="./img/image1.png" class="image img-1 show" alt="" />
+              <img src="./img/image2.png" class="image img-2" alt="" />
+              <img src="./img/image1.png" class="image img-3" alt="" />
+            </div>
+
+            <div class="text-slider">
+              <div class="text-wrap">
+                <div class="text-group">
+                  <h2>Fotix cinema!</h2>
+                  <h2>Wujudkan impianmu</h2>
+                  <h2>Untuk nonton gratis tanpa ribet</h2>
+                </div>
+              </div>
+
+              <div class="bullets">
+                <span class="active" data-value="1"></span>
+                <span data-value="2"></span>
+                <span data-value="3"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Javascript file -->
+
+    <script src="./js/login.js"></script>
+  </body>
+</html>
